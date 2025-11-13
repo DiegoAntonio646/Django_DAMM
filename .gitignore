@@ -1,0 +1,86 @@
+Entornos Virtuales
+
+/venv/
+/env/
+/.venv/
+/.env
+
+Bases de datos
+
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+Archivos compilados de Python
+
+*.pyc
+pycache/
+*.pyo
+
+Logs
+
+*.log
+logs/
+
+Archivos de IDE (VSCode, etc.)
+
+.vscode/
+.idea/
+
+Archivos de Django
+
+(No ignores 'static/' si pones tus CSS/JS ahí)
+
+(Sí ignora 'staticfiles/' que es donde se recolectan)
+
+/staticfiles/
+/media/
+
+Archivos de sistema operativo
+
+.DS_Store
+Thumbs.db
+django_gitignore.txt
+Página 1 de 7
+Práctica  6:  Instala Django
+Elisa Herrera González
+•
+11 nov
+100 puntos
+Fecha límite: 16 nov
+El objetivo de esta tarea es construir y probar tu aplicación "Hola Mundo" de Django en tu computadora local. Deberás seguir la guía adjunta, configurar tu entorno, ejecutar el servidor y verificar que funciona en tu navegador.
+
+Instrucciones Sigue del manual adjunto
+
+Entregables (Evidencias)
+
+Esta es la evidencia principal. 
+Debe mostrar tu entorno de Visual Studio Code con dos cosas visibles al mismo tiempo:
+La lista de todos tus archivos y carpetas (la carpeta venv basta  con que aparezca  pero no necesariamente los  archivos, la carpeta del proyecto hola_EHG, la app nucleo, manage.py, requirements.txt, etc.).
+La terminal integrada debe mostrar el comando python manage.py runserver ejecutado y el mensaje de que el servidor se está ejecutando en http://127.0.0.1:8000/.
+Si en tu pantalla no se aprecian  puedes entregar esta parte en dos capturas separadas.
+
+Toma una captura de pantalla de tu navegador web (Chrome, Firefox, etc.) después de visitar la dirección http://127.0.0.1:8000/.
+La captura debe mostrar claramente la página "Hola Mundo" funcionando (con el texto que configuraste en views.py) y con la URL http://127.0.0.1:8000/.
+django_gitignore.txt
+Texto
+
+proyecto_urls.txt
+Texto
+
+hola_mundo_views.txt
+Texto
+
+hola_mundo_urls.txt
+Texto
+
+django-local.pdf
+PDF
+
+navegador-local-django.png
+Imagen
+
+evidencia-archivos-servidorlocal.png
+Imagen
+
+Comentarios de la clase
